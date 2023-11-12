@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f77af96cb8d0a9cca42448b3e906e731 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f77af96cb8d0a9cca42448b3e906e731" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f77af96cb8d0a9cca42448b3e906e731 = L.map(
+                "map_f77af96cb8d0a9cca42448b3e906e731",
+                {
+                    center: [-6.557372, 107.21323799999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_62fcaa26cd0085ba1ace70c2ff203985 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f77af96cb8d0a9cca42448b3e906e731);
+        
+    
+            var marker_85323b3c5e81e615a568c501d67bb698 = L.marker(
+                [-6.2, 106.816666],
+                {}
+            ).addTo(map_f77af96cb8d0a9cca42448b3e906e731);
+        
+    
+        var popup_a801b1b267e671a55de1a59d560dfa08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9530fb613fb82cf6c2a28f394f03f331 = $(`<div id="html_9530fb613fb82cf6c2a28f394f03f331" style="width: 100.0%; height: 100.0%;">Lat: -6.2, Lon: 106.816666, Location: Jakarta</div>`)[0];
+                popup_a801b1b267e671a55de1a59d560dfa08.setContent(html_9530fb613fb82cf6c2a28f394f03f331);
+            
+        
+
+        marker_85323b3c5e81e615a568c501d67bb698.bindPopup(popup_a801b1b267e671a55de1a59d560dfa08)
+        ;
+
+        
+    
+    
+            var marker_8a443f7557a115ae9cf32012d649a62d = L.marker(
+                [-6.914744, 107.60981],
+                {}
+            ).addTo(map_f77af96cb8d0a9cca42448b3e906e731);
+        
+    
+        var popup_01d78e538b0d5af2e10f2e6c9604b7d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f938720f92ce3c50cdf1af28148d40d = $(`<div id="html_6f938720f92ce3c50cdf1af28148d40d" style="width: 100.0%; height: 100.0%;">Lat: -6.914744, Lon: 107.60981, Location: Bandung</div>`)[0];
+                popup_01d78e538b0d5af2e10f2e6c9604b7d3.setContent(html_6f938720f92ce3c50cdf1af28148d40d);
+            
+        
+
+        marker_8a443f7557a115ae9cf32012d649a62d.bindPopup(popup_01d78e538b0d5af2e10f2e6c9604b7d3)
+        ;
+
+        
+    
+</script>
+</html>
