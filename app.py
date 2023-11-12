@@ -101,12 +101,12 @@ def main():
             st.subheader(" Find out if your customer will churn or not 🫥")
             # Categorical columns unique values
             device_class_values = ["Low End", "Mid End", "High End"]
-            games_product_values = ["Yes", "No", "No internet service"]
-            music_product_values = ["Yes", "No", "No internet service"]
-            education_product_values = ["Yes", "No", "No internet service"]
+            games_product_values = ["Yes", "No"]
+            music_product_values = ["Yes", "No"]
+            education_product_values = ["Yes", "No"]
             call_center_values = ["Yes", "No"]
-            video_product_values = ["Yes", "No", "No internet service"]
-            use_myapp_values = ["Yes", "No", "No internet service"]
+            video_product_values = ["Yes", "No"]
+            use_myapp_values = ["Yes", "No"]
             payment_method_values = ["Digital Wallet", "Pulsa", "Debit", "Credit"]
 
             # Create input fields for categorical columns
